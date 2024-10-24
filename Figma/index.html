@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Cart Page</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+<h1>My Store</h1>
+<nav>
+<a href="#">Home</a>
+<a href="#">Shop</a>
+<a href="#">Cart</a>
+</nav>
+</header>
+
+<div class="loader" style="display: none;">Loading...</div>
+
+<main>
+<section class="cart">
+<h2>Your Cart</h2>
+<div class="cart-items">
+<!-- Cart items will be dynamically inserted here by JavaScript -->
+</div>
+</section>
+
+<aside class="cart-summary">
+<h2>Cart Totals</h2>
+<p>Subtotal: <span class="subtotal">₹0</span></p>
+<p>Total: <span class="total">₹0</span></p>
+<button class="checkout-button">Check Out</button>
+</aside>
+</main>
+
+<footer>
+<p>High Quality | Warranty Protection | Fast Shipping</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
